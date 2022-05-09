@@ -75,3 +75,77 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 61ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 4450)
 
 
+  [1m[35m (311.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (78.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (23.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3369180297042482685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGreetings (20220509010012)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (123.4ms)[0m  [1m[35mCREATE TABLE "greetings" ("id" bigserial primary key, "message" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220509010012"]]
+  [1m[36mTRANSACTION (27.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-05-09 01:01:50.946324"], ["updated_at", "2022-05-09 01:01:50.946324"]]
+  [1m[36mTRANSACTION (10.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3369180297042482685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.5ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Hello!"], ["created_at", "2022-05-09 01:02:27.527017"], ["updated_at", "2022-05-09 01:02:27.527017"]]
+  [1m[36mTRANSACTION (30.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.7ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Holla!"], ["created_at", "2022-05-09 01:02:42.571345"], ["updated_at", "2022-05-09 01:02:42.571345"]]
+  [1m[36mTRANSACTION (15.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.7ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Ohayo!"], ["created_at", "2022-05-09 01:02:56.949642"], ["updated_at", "2022-05-09 01:02:56.949642"]]
+  [1m[36mTRANSACTION (17.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.7ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Bonjour!"], ["created_at", "2022-05-09 01:03:05.519729"], ["updated_at", "2022-05-09 01:03:05.519729"]]
+  [1m[36mTRANSACTION (25.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.8ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Namaste!"], ["created_at", "2022-05-09 01:03:17.447613"], ["updated_at", "2022-05-09 01:03:17.447613"]]
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+Started GET "/v1/greetings" for ::1 at 2022-05-09 02:06:46 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/i4mcloud/Desktop/Microverse/hello-rails-back-end/app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+      @message: Greeting.all.sample
+              ^
+/home/i4mcloud/Desktop/Microverse/hello-rails-back-end/app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+    }
+    ^
+):
+  
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+Started GET "/v1/greetings" for ::1 at 2022-05-09 02:07:07 +0100
+  
+SyntaxError (/home/i4mcloud/Desktop/Microverse/hello-rails-back-end/app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+      @message: Greeting.all.sample
+              ^
+/home/i4mcloud/Desktop/Microverse/hello-rails-back-end/app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+  }.to_json
+  ^
+):
+  
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+app/controllers/v1/greetings_controller.rb:4: syntax error, unexpected ':', expecting =>
+app/controllers/v1/greetings_controller.rb:5: syntax error, unexpected '}', expecting `end'
+Started GET "/v1/greetings" for ::1 at 2022-05-09 02:07:23 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 3.2ms | Allocations: 8761)
+
+
