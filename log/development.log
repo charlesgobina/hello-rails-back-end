@@ -275,3 +275,1217 @@ Processing by V1::GreetingsController#index as JSON
 Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 773)
 
 
+Started GET "/ws" for ::1 at 2022-05-09 08:39:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (32.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for ::1 at 2022-05-09 08:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:40:00 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (45.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 198ms (Views: 0.2ms | ActiveRecord: 90.3ms | Allocations: 8792)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:40:01 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 844)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:40:06 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:40:06 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:42:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 791)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:42:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:42:47 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 788)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:42:47 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:43:32 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:43:32 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:03 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:03 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (1.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:45 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 786)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:45 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:48 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:48 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:51 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:56 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:57 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:58 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:44:58 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:36 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:36 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:37 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:39 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:43 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:45:45 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:13 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:14 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:16 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:33 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:33 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:35 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 775)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:36 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:43 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:44 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:44 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:45 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:46 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:47 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:47 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:48 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:50 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:46:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:48:52 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:48:59 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:48:59 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:19 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:21 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:33 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:34 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:40 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:42 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:49:43 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:13 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:14 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:38 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:39 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:40 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:42 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:43 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:50:44 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:51:32 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:51:33 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:51:34 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:51:35 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:51:36 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:40 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 0.1ms | ActiveRecord: 4.0ms | Allocations: 3146)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:41 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:42 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:44 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:45 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:46 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:48 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:49 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:50 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:51 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:57:57 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:06 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:07 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:12 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:13 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:14 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 08:59:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 09:04:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 5.3ms | Allocations: 2980)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 09:04:59 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 09:05:00 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (193.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (57.0ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 242ms (Views: 0.2ms | ActiveRecord: 139.6ms | Allocations: 8772)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 924)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:58 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (1.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 792)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:35:58 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:03 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 788)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:04 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 788)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:06 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 788)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:06 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:07 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:08 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:09 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:10 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:11 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:14 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:14 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:15 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:36:16 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:12 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (42.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 182ms (Views: 0.2ms | ActiveRecord: 42.9ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:13 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:31 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:37 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.6ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:39 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:42 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:41:43 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:33 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (1.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 38ms (Views: 0.2ms | ActiveRecord: 17.4ms | Allocations: 3147)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:40 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:42 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:47 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:48 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:49 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 14:56:49 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 3.5ms | Allocations: 2981)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:53 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:54 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:56 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:56 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:56 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:57 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:04:57 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:20:32 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 0.5ms | ActiveRecord: 12.1ms | Allocations: 2981)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:20:32 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:20:44 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:23:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:23:55 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:37:23 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 128ms (Views: 0.1ms | ActiveRecord: 6.8ms | Allocations: 2981)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:37:23 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:37:25 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:37:25 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/v1/greetings" for 127.0.0.1 at 2022-05-09 15:37:27 +0100
+Processing by V1::GreetingsController#index as JSON
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/v1/greetings_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 774)
+
+
